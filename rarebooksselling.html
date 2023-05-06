@@ -1,51 +1,70 @@
 <!DOCTYPE html>
-<html>
+  <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="rarebooks.css" />
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" />
-        <title>Rare Books Selling - Proudly Old Fashioned</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="device=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="rarebooks.css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" />
+      <title>Rare Books Selling - Proudly Old Fashioned</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="device=device-width, initial-scale=1.0">
     </head>
     <body>
       <header id="header">
-        <a href="https://pixabay.com/users/openclipart-vectors-30363/"><img id="header-img" src="https://pixabay.com/vectors/book-books-circle-icons-genie-jinn-1294676/"/></a> <h1>Old Fashioned Rare Books® - Since 1901</h1>
+        <div class="logo">
+          <img src="https://cdn.pixabay.com/photo/2016/03/31/18/50/book-1294676_960_720.png" id="header-img" >
+        </div>
+        <input type="checkbox" id="nav_check" hidden >
         <nav id="nav-bar">
-            <ul>
-              <li class="nav-link" id="Features"><a href="Features">Features</a></li>  
-                <li class="nav-link" id="How-It-Works"><a href="How-It-Works">How It Works</a></li>
-               <li class="nav-link" id="Pricing"><a href="Pricing">Pricing</a></li>
-            </ul>
+          <div class="logo">
+            <img src="https://cdn.pixabay.com/photo/2016/03/31/18/50/book-1294676_960_720.png" id="header-img">
+          </div>
+          <ul>
+            <a class="active nav-link" href="#Features"><li>Features</a></li>
+            <a href="#How-It-Works" class="nav-link"><li>How It Works</a></li>
+            <a href="#Pricing" class="nav-link"><li>Pricing</a></li>
+          </ul>
         </nav>
+        <label for="nav_check" class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </label>
+
       </header>
-        <main>
-          <h2>Original, Rare, Classics and Elite Books Selling</h2>
-          
-          <p><i class="fa-solid fa-magnifying-glass fa-2x"></i> We come from a long tradition of discovery and selling of rare books of over a century: since 1901. We discover and carefully choose the finest books of premium quality and conditions that might not be known by all the public or first editions of classics such as labour of works written by Shakespeare raging from every type of writing; Therefore we hunt philosophical essays, plays, novels, novellas, critical writings, drafts of writings that differ from their published versions. </p>
-          
-          <h2 style="text-align:center">Our Offers</h2>
-<p style="text-align:center"><i>Carpe Diem</i> as these Offers are Limited-Time Only</p>
+      
+        
+             
+      
+	
+<div class="container">
+  <h1>Old Fashioned Rare Book® - Since 1901</h1>
+  <h2 id="Features">Our Story - Specialists in the Sale of Original, Rare, Classic and Elite Books</h2>        
+  <p><i class="fa-solid fa-magnifying-glass fa-2x"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio tempor orci dapibus ultrices in iaculis nunc sed. Id leo in vitae turpis massa sed. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Neque ornare aenean euismod elementum nisi. Egestas integer eget aliquet nibh praesent tristique magna sit amet.</p><br>
+    <p> Vulputate dignissim suspendisse in est ante in nibh mauris cursus. Quis vel eros donec ac odio tempor. Enim sed faucibus turpis in. Arcu ac tortor dignissim convallis aenean. </p>
+    <p> Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Sem nulla pharetra diam sit amet nisl suscipit. Sed faucibus turpis in eu mi bibendum neque egestas. Sit amet facilisis magna etiam tempor orci eu lobortis elementum. Duis convallis convallis tellus id. Nunc vel risus commodo viverra maecenas. </p>	
+
+  <h2 style="text-align:center" id="Pricing">Our Limited-Time Plans (Valid until XXIV-XXII-MMM)</h2>
+<p style="text-align:center"><i>Carpe Diem</i></p>
 
 <div class="columns">
   <ul class="price">
-    <li class="header">Basic</li>
-    <li class="grey">$ 299.99 </li>
-    <li>3 Rare Books from the XXI Century</li>
-    <li>Included Necessary Tools for Maintaining </li>
-    <li>Collection in store in 15 business days</li>
-    <li>Option to purchase $39 Gift Card</li>
+    <li class="header">Standard</li>
+    <li class="grey">£ 299.99 </li>
+    <li class="table-text"><span class="fas fa-check check"></span> Magna etiam tempor orci eu lobortis</li>
+    <li class="table-text"><span class="fas fa-check check"></span> Elementum nibh tellus molestie</li>
+    <li class="table-text"><span class="fas fa-times nocheck"></span> At quis risus sed vulputate odio ut</li>
+    <li class="table-text"><span class="fas fa-times nocheck"></span> Egestas pretium aenean pharetra lorem</li>
     <li class="grey"><a href="#" class="table-button">Purchase Now</a></li>
   </ul>
 </div>
 
 <div class="columns">
   <ul class="price">
-    <li class="header" style="background-color:#576F72">Pro</li>
-    <li class="grey">$ 599.99</li>
-    <li>6 Rare Books raging from the XVIII Century </li>
-    <li>Included Necessary Tools for Maintaining</li>
-    <li>Collection in store in 7 business days</li>
-    <li>Option to obtain membership card</li>
+    <li class="header" style="background-color:#576F72">Popular</li>
+    <li class="grey">£ 599.99</li>
+    <li class="table-text"><span class="fas fa-check check"></span> Magna ac placerat vestibulum lectus</li>
+    <li class="table-text"><span class="fas fa-check check"></span> In est ante in nibh mauris</li>
+    <li class="table-text"><span class="fas fa-check check"></span> Cursus mattis molestie</li>
+    <li class="table-text"><span class="fas fa-times nocheck"></span> Pulvinar elementum integer</li>
     <li class="grey"><a href="#" class="table-button">Purchase Now</a></li>
   </ul>
 </div>
@@ -53,35 +72,41 @@
 <div class="columns">
   <ul class="price">
     <li class="header">Premium</li>
-    <li class="grey">$ 999.99</li>
-    <li>9 Rare Books raging from the XIII Century</li>
-    <li>Included Necessary Tools for Maintaining</li>
-    <li>Collection in store in 3 business days</li>
-    <li>Option to obtain membership card and gift cards for $99, $199 or $299</li>
+    <li class="grey">£ 999.99</li>
+    <li class="table-text"><span class="fas fa-check check"></span> Enim neque volutpat</li>
+    <li class="table-text"><span class="fas fa-check check"></span> Ac tincidunt vitae</li>
+    <li class="table-text"><span class="fas fa-check check"></span> Facilisi nullam vehicula ipsum</li>
+    <li class="table-text"><span class="fas fa-check check"></span> Nibh tortor id aliquet lectus proin nibh nisl</li>
     <li class="grey"><a href="#" class="table-button">Purchase Now</a></li>
   </ul>
 </div>
 
           
-          <p><i class="fa-regular fa-credit-card fa-2x"></i> Visit our store at 789 Gower Street, Caerdydd - Cymru and look through all the gems we have. Only payments with credit or debit cards are accepted as we only deal with high-quality items. As our books are very delicate and old, we do not ship them. Our company will provide you with all the necessary tools and advice to keep perfect care of your books.</p>
+              <h4>How to Pay</h4>
+          <p id="How-It-Works"><i class="fa-regular fa-credit-card fa-2x"></i> Et <b>ligula</b> ullamcorper malesuada proin libero nunc. Odio pellentesque diam volutpat commodo. Nec ultrices dui sapien eget mi proin sed. Nulla porttitor massa id neque aliquam. Elementum nisi quis eleifend quam adipiscing. Ut enim <b>blandit volutpat maecenas volutpat</b> blandit aliquam. Elementum pulvinar etiam non quam lacus suspendisse. Enim neque volutpat ac tincidunt. At erat pellentesque adipiscing commodo. <b>Elementum sagittis vitae et leo</b>. A scelerisque purus semper eget duis. Ac turpis egestas maecenas pharetra. Volutpat est velit egestas dui id ornare arcu.</p><br>
+          <p id="bottom-gap-paragraph">Neque aliquam vestibulum morbi blandit cursus risus at. <b>Amet consectetur adipiscing</b> elit duis tristique sollicitudin nibh sit amet. Nibh tortor id aliquet lectus proin nibh nisl condimentum. Justo eget magna fermentum iaculis eu non.<b>Fringilla</b> ut morbi tincidunt augue interdum velit. Malesuada fames ac turpis egestas sed tempus urna et pharetra. Adipiscing elit ut aliquam purus sit amet luctus venenatis lectus. Pellentesque sit amet porttitor eget. Est sit amet facilisis <b>magna</b> etiam tempor orci eu. Erat imperdiet sed euismod nisi.</p>
           
-        
-          <iframe width="560" height="315" id="video" style="display:block; margin:0 auto;" src="https://www.youtube.com/embed/BG3eAR1ngeg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class = "video-container">
+            <div class="wrappingVideo">
+              <iframe id="video" src="https://www.youtube.com/embed/BG3eAR1ngeg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+          <h5 id="Store">Our Store Address and Contact Details</h5> 
+          <p> <i class="fa-solid fa-store fa-2x"></i> Cursus sit amet dictum sit. Tempus iaculis urna id volutpat lacus laoreet non curabitur. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien.</p>
+         <p id="top-gap-paragraph">789 Gower Street, Caerdydd - Cymru</p> 
+         <p>+44 0071234567</p><br>
+         <p>Open from Monday To Friday (9am-5pm) except Holidays</p>
+          <p>In order to receive notifications about new arrivals, fill in the box below:</p><br>
           
-          
-          <p> <i class="fa-solid fa-store fa-2x"></i> We are open from Monday to Friday (8am - 5pm) excluding holidays. We are situated next to the Parliament of Cymru facing the ocean. Our phone number is 03015942222</p>
-          
-          <p>In order to receive notifications about new arrivals, fill in the box below:</p>
-          
-          <form action="https://www.freecodecamp.com/email-submit">
-            <input id="email" type="email" placeholder="write your full email address">
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" type="email" name="email" placeholder="type full email address">
              <input id="submit" type="submit" value="Begin Now">  
           </form>
-             </main>         
-    <footer>
-       <p>Our store is in 789 Gower Street, Caerdydd - Cymru </p>
-       <p>Copyright 2022 Old Fashioned Rare Books®</p> 
-    </footer>
-    </body>
+          <footer>
+            <p>Our store is in 789 Gower Street, Caerdydd - Cymru </p>
+            <p>Copyright 2022 Old Fashioned Rare Books®</p> 
+         </footer>
+</div>
+</body>
 
 </html>
