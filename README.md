@@ -10,8 +10,6 @@ Thanks to the creator of this beautiful logo image whose professional profile is
 
 Author: Letizia DI MAIO
 
-This project is still in development ⏳ 
-
 ## Mockups on Desktop in 4 parts (width 1917px x 938px height):
 
 1
